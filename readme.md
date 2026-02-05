@@ -93,6 +93,22 @@ cd vpinfe
 pip install -r osx_requirements.txt
 ```
 
+### Windows 11: 
+Requirements:
+* Python 3.13.12 installed
+* PowerShell Script Execution is enabled
+* add Path for Python (pip)
+  
+```
+git clone https://github.com/superhac/vpinfe.git
+cd vpinfe
+python -m pip install --upgrade pip
+python -m venv venv-vpinfe --system-site-package
+.\venv-vpinfe\scripts\Activate.ps1
+pip install pywebview screeninfo colorame requests olefile nicegui pynput
+python main.py -h
+```
+
 ### Setup your configuration (vpinfe.ini)
 
 VPinFE uses a platform-specific configuration directory to store its settings. On first run, VPinFE will automatically create a default `vpinfe.ini` file in the following location:
