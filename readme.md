@@ -112,7 +112,7 @@ pip install -r osx_requirements.txt
 >[!IMPORTANT]
 >Due to the Fact Script Execution is needed later on for launching VPINFE, do not disable Script Execution.
 
-* open PowerShell as Admin
+* open PowerShell
 ```
 git clone https://github.com/superhac/vpinfe.git
 cd vpinfe
